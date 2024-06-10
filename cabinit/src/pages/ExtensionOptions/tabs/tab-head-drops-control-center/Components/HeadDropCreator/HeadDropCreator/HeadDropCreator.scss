@@ -1,0 +1,69 @@
+.head-drop-creator {
+  width: 500px;
+  height: 500px;
+  padding: 35px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  position: absolute;
+  top: calc(100vh / 2 - 250px);
+  left: calc(100vw / 2 - 250px);
+  z-index: 3;
+
+  .close-button {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .setup-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    > .description {
+      padding-top: 20px;
+      font-weight: bold;
+    }
+
+    > .boxes {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 35px;
+    }
+
+    > .setup-page-bottom-description {
+      padding-top: 35px;
+      text-align: center;
+    }
+
+    > .ready-headdrop-button {
+      margin-top: 35px;
+
+      > p {
+        padding: 10px;
+      }
+      background: #c6cdbc;
+      box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

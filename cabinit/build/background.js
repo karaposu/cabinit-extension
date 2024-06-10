@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((e,s,r)=>(e.action==="someAction"&&r({result:"success"}),!0));chrome.runtime.onMessage.addListener((e,s,r)=>{e.action==="createTab"&&chrome.tabs.create({url:e.url})});

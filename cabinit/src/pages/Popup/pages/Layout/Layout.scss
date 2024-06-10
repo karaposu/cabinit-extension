@@ -1,0 +1,18 @@
+.popup {
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+  height: 329px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 25px;
+  font-weight: bold;
+
+  > .content {
+    position: relative;
+    min-height: 300px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

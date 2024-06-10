@@ -1,0 +1,43 @@
+.popup-navigations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 15px;
+  margin: 25px 0;
+  font-size: 1rem;
+
+  .cool-button-front {
+    height: 60px;
+    padding: 14px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+}
+
+.back-button {
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 14px;
+  top: -30px;
+
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #dc2f43;
+    transition: width 0.3s ease-in-out;
+  }
+}

@@ -1,0 +1,32 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+
+
+  > .content {
+    min-height: 675px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    > .header {
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+    > .body{
+      
+    }
+  }
+}

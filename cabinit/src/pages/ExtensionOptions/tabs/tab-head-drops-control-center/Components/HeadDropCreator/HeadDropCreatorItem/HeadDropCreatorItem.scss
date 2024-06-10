@@ -1,0 +1,28 @@
+.head-drop-creator-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .box-context {
+    width: 120px;
+    height: 150px;
+    background-color: #cdc6bc;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    > img {
+      width: 120px;
+      height: 150px;
+      border-radius: 5px;
+      margin: 5px;
+      object-fit: cover;
+    }
+  }
+
+  .box-label {
+    padding-top: 20px;
+    font-weight: bold;
+  }
+}

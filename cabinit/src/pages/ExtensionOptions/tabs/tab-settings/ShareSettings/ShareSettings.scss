@@ -1,0 +1,34 @@
+.share-settings {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+
+  .section-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+
+  .share-settings-context{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+
+    .setting-items{
+      gap: 3px;
+      display: flex;
+      align-items: center;
+      width: 400px;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+  }
+}

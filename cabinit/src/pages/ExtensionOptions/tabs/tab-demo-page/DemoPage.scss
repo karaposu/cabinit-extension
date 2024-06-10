@@ -1,0 +1,34 @@
+.demo-page {
+
+  .section-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  margin-top: 50px;
+  .images {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    .image {
+      max-width: 206px;
+      min-width: 206px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .onboarding-next-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

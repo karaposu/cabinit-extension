@@ -1,0 +1,29 @@
+.my-head-drops {
+  margin-top: 20px;
+
+  .head-drop-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .headdrop-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  > .head-drop-title {
+    margin: 15px 0;
+  }
+
+  .onboarding-next-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

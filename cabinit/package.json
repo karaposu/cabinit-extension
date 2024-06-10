@@ -1,0 +1,37 @@
+{
+  "name": "cabinit-chrome-extension",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "npm run clean && tsc && concurrently \"npm run watch:pages\" \"npm run watch:scripts\"",
+    "clean": "rm -rf ./build",
+    "build": "npm run clean && tsc && npm run build:pages && npm run build:scripts",
+    "build:pages": "vite build --config vite.pages.config.ts",
+    "build:scripts": "vite build --config vite.scripts.config.ts",
+    "watch:pages": "vite build --config vite.pages.config.ts --watch",
+    "watch:scripts": "vite build --config vite.scripts.config.ts --watch"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "classnames": "^2.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "glob": "^10.3.14",
+    "sass": "^1.77.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-mpa": "^1.2.0",
+    "vite-plugin-mpa-plus": "^0.6.0"
+  }
+}

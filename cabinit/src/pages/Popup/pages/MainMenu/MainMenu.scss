@@ -1,0 +1,63 @@
+.popup-main-menu {
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 0;
+  }
+
+  .deactive-felix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 20px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+
+    .react-switch-label {
+      zoom: 0.4;
+    }
+  }
+
+  .wild-felix {
+    margin-top: 25px;
+    > h1 {
+      margin: 5px 0 !important;
+    }
+
+    > p {
+      font-weight: normal;
+      margin: 0;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .react-switch-label {
+      zoom: 0.7;
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 90px;
+  }
+
+  .deactive-backdrop {
+    padding: 0px 25px 11px 26px;
+    top: 6px;
+    left: -26px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+  }
+}

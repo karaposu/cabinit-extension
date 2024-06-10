@@ -1,0 +1,17 @@
+.navigation-section {
+  display: flex;
+  gap: 15px;
+
+  .navigation-section__item {
+    padding: 5px 15px;
+    border: 2px solid #f3c95f;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .navigation-section__item--active {
+    background-color: #f3c95f;
+    color: #fff;
+  }
+}

@@ -1,0 +1,65 @@
+.felix-widget {
+  padding: 5px;
+  // not withe but not grey
+  background-color: whitesmoke;
+
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 160px;
+
+  > .actions {
+    scale: 0.8;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    > .action {
+      mask-size: 100%;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      width: 24px;
+      height: 24px;
+      background-color: #000;
+    }
+  }
+
+  > .headdrops {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    > .headdrop-item {
+      > img {
+        // 25px circle
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 0 0 1px #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+
+    > .add-more-headdrop {
+      mask-size: 100%;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+    }
+  }
+}
